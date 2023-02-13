@@ -7,6 +7,7 @@ import {
 } from '@heroicons/react/20/solid';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import { render } from 'react-dom';
 
 export default function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -39,6 +40,7 @@ export default function Header() {
       );
     }
   };
+  console.log(renderThemeChanger());
   return (
     <div className="flex justify-between items-center max-w-6xl mx-auto px-4 py-4">
       <div className="flex space-x-4">
