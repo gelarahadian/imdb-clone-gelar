@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Header from './Header';
 import Navbar from './Navbar';
+import SearchBox from './SearchBox';
 
 export default function Layout({ children }) {
   return (
@@ -19,6 +20,8 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* SearchBox */}
+      <SearchBox />
+
       <div className="max-w-6xl mx-auto py-4">{children}</div>
     </>
   );

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { HandThumbUpIcon } from '@heroicons/react/20/solid';
+import { HandThumbUpIcon } from '@heroicons/react/24/outline';
 
 export default function Card({ result }) {
   return (
@@ -30,7 +30,7 @@ export default function Card({ result }) {
           </h2>
           <p className="flex items-center">
             {result.release_date || result.first_air_date}
-            <HandThumbUpIcon className="h-6" />
+            <HandThumbUpIcon className="h-5 ml-4" />
             {result.vote_count}
           </p>
         </div>

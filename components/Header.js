@@ -49,7 +49,7 @@ export default function Header() {
         <Link href={'/about'} className="hidden md:inline-flex">
           <h1 className="cursor-pointer">ABOUT</h1>
         </Link>
-        <Link href={'/about'} className="md:hidden text-lg">
+        <Link href={'/'} className="md:hidden text-lg">
           <HomeIcon className="w-6" />
         </Link>
         <Link href={'/about'} className="md:hidden text-lg">
