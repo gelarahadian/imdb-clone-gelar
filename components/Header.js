@@ -40,7 +40,6 @@ export default function Header() {
       );
     }
   };
-  console.log(renderThemeChanger());
   return (
     <div className="flex justify-between items-center max-w-6xl mx-auto px-4 py-4">
       <div className="flex space-x-4">

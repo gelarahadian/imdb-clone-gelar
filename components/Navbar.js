@@ -22,7 +22,7 @@ export default function Navbar() {
     >
       {genreList.map(({ title, param }) => (
         <Link
-          className={`m-4 hover:text-amber-600 font-semibold p-2 transition duration-300 ${
+          className={`m-4 hover:text-amber-600 font-semibold p-2 transition duration-300  ${
             genre &&
             genre === param &&
             'underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg '
